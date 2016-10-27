@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Git\MywelinkCommon\WelinkCommon\src\main\assets"><file name="4zlink.p12" path="D:\Git\MywelinkCommon\WelinkCommon\src\main\assets\4zlink.p12"/><file name="server.bks" path="D:\Git\MywelinkCommon\WelinkCommon\src\main\assets\server.bks"/></source><source path="D:\Git\MywelinkCommon\WelinkCommon\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\Git\MywelinkCommon\WelinkCommon\src\release\assets"/></dataSet></merger>

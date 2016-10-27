@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\RiceApp\\rice-WelinkCommon\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading.xml",
+        "source": "E:\\RiceApp\\rice-WelinkCommon\\build\\intermediates\\bundles\\debug\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "D:\\MyWelinkCommon\\WelinkCommon\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading.xml",
+        "source": "D:\\MyWelinkCommon\\WelinkCommon\\build\\intermediates\\bundles\\debug\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "D:\\Git\\MywelinkCommon\\WelinkCommon\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading.xml",
+        "source": "D:\\Git\\MywelinkCommon\\WelinkCommon\\build\\intermediates\\bundles\\debug\\res\\layout\\loading.xml"
+    }
+]

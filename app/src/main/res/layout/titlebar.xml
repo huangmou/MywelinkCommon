@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        android:background="@color/apptitle" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="onClickTitleBar"
+            android:paddingBottom="10dp"
+            android:paddingLeft="17.5dp"
+            android:paddingRight="17.5dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/back"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_title_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_title_size" />
+
+
+        <TextView
+            android:id="@+id/dev_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/title"
+            android:text="开发版本"
+            android:textColor="@color/green"
+            android:textSize="@dimen/activity_title_size"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="onClickTitleBar"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="17.5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/activity_title_size"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="17.5dp"
+            android:paddingRight="17.5dp"
+            android:paddingTop="10dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlebar"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_title_size"
+        android:visibility="gone" />
+
+</RelativeLayout>
